@@ -8,57 +8,225 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+  <!-- ===============
+    SITE-HEADER
+  ================ -->
   <header class="site-header">
-    <div class="container">
+    <div class="container site-header-container">
+      <a class="site-logo" href="index.html"><img class="logo-img" src="img/site-logo.svg" alt="site logo icon" width="58" height="20"></a>
       <nav class="site-navbar">
-        <a class="site-logo" href="index.html"><img src="img/site-logo.svg" alt="site logo icon" width="58" height="20"></a>
-        <div class="heder-right-part">
-          <ul class="site-navigation">
-            <li class="drop-down">
-              <a class="navbar-link" href="#">
-                Xizmatlar
-              </a>
-              <ul class="drop-down-menu">
-                <li><a class="drop-down-link" href="html/website.html">Vebsayt</a></li>
-                <li><a class="drop-down-link" href="html/telegram-bot.html">Telegram bot</a></li>
-                <li><a class="drop-down-link" href="html/smm.html">SMM</a></li>
-                <li><a class="drop-down-link" href="html/design.html">Grafik dizayn</a></li>
-                <li><a class="drop-down-link" href="html/crm.html">CRM tizim</a></li>
-              </ul>
-            </li>
-            <li><a class="navbar-link" href="#">Portfolio</a></li>
-            <li><a class="navbar-link" href="#">Jamoa</a></li>
-            <li><a class="navbar-link" href="#">Blog</a></li>
-            <li><a class="navbar-link" href="#">Kontaktlar</a></li>
-          </ul>
-          <a class="blue-link phone-num" href="tel:+998909213711">+998 90 921 37 11</a>
-        </div>
+        <ul class="site-navigation">
+          <li class="drop-down">
+            <a class="navbar-link" href="#">
+              Xizmatlar
+            </a>
+            <ul class="drop-down-menu">
+              <li><a class="drop-down-link" href="html/website.html">Vebsayt</a></li>
+              <li><a class="drop-down-link" href="html/telegram-bot.html">Telegram bot</a></li>
+              <li><a class="drop-down-link" href="html/smm.html">SMM</a></li>
+              <li><a class="drop-down-link" href="html/design.html">Grafik dizayn</a></li>
+              <li><a class="drop-down-link" href="html/crm.html">CRM tizim</a></li>
+            </ul>
+          </li>
+          <li><a class="navbar-link" href="#">Portfolio</a></li>
+          <li><a class="navbar-link" href="#">Jamoa</a></li>
+          <li><a class="navbar-link" href="#">Blog</a></li>
+          <li><a class="navbar-link" href="#">Kontaktlar</a></li>
+        </ul>
       </nav>
+      <a class="blue-link phone-num" href="tel:+998909213711">+998 90 921 37 11</a>
     </div>
   </header>
 
-  <!-- SITE-MAIN-PART -->
+  <!-- =================
+      SITE-MAIN-PART
+  ================== -->
   <main class="site-main">
     <div class="container">
+
+      <!-- DEVELOP-BUSINESS -->
       <section class="site-develop">
         <div class="site-develop-text">
-
           <h1 class="develop-heading">Biznesingizni keyingi bosqichga
             olib chiqing</h1>
-          <p class="develop-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-          <a class="blue-link" href="#">Xizmatlar bilan tanishish</a>
-        </div>
-        <iframe class="video" width="458" height="258" src="https://www.youtube.com/embed/6_pru8U2RmM?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="develop-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+            <a class="blue-link page-link" href="#services">Xizmatlar bilan tanishish</a>
+          </div>
+          <iframe class="video" src="https://www.youtube.com/embed/6_pru8U2RmM?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
 
-          <h1>Biznesingizni keyingi bosqichga
-            olib chiqing</h1>
-          <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-          <a class="blue-link" href="#">Xizmatlar bilan tanishish</a>
-        </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6_pru8U2RmM?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- CERVICES -->
+        <section id="services" class="cervices-section">
+          <div class="sections-text">
+            <h3 class="cervices-section-header">Xizmatlar</h3>
+            <p class="cervices-section-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+          </div><!-- cervices-section-main -->
+          <ul class="cervices-section-list">
+            <li class="cervices-section-item">
+              <a class="cervices-section-link cervices-section-link-first" href="html/website.html">
+                <h4>Vebsayt tuzish</h4>
+                <p>Lorem ipsum</p>
+              </a>
+            </li>
+            <li class="cervices-section-item">
+              <a class="cervices-section-link cervices-section-link-second" href="html/telegram-bot.html">
+                <h4>Telegram bot</h4>
+                <p>Lorem ipsum</p>
+              </a>
+            </li>
+            <li class="cervices-section-item">
+              <a class="cervices-section-link cervices-section-link-third" href="html/smm.html">
+                <h4>SMM</h4>
+                <p>Lorem ipsum</p>
+              </a>
+            </li>
+            <li class="cervices-section-item">
+              <a class="cervices-section-link cervices-section-link-fourth" href="html/design.html">
+                <h4>Grafik dizayn</h4>
+                <p>Lorem ipsum</p>
+              </a>
+            </li>
+            <li class="cervices-section-item">
+              <a class="cervices-section-link cervices-section-link-fifith" href="html/crm.html">
+                <h4>CRM tizimlar</h4>
+                <p>Lorem ipsum</p>
+              </a>
+            </li>
+          </ul><!-- cervices-section-list -->
+          <div class="cervices-section-main-link">
+            <a class="blue-link page-link" href="#orderto">Buyurtma berish</a>
+            <a class="service-go-link" href="#">Xizmatlar sahifasiga o'tish</a>
+          </div><!-- cervices-section-link -->
+        </section><!-- cervices-section -->
 
-      </section>
-    </div>
-  </main>
-</body>
-</html>
+        <!-- HOW-WE-WORK -->
+        <section class="how-we-work">
+          <div class="sections-text">
+            <h3 class="work-section-header">Biz qanday ishlaymiz?</h3>
+            <p class="work-section-paragraph">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+          </div><!-- cervices-section-main -->
+          <ol class="work-list">
+            <li class="work-list-item work-list-item-first">
+              <div class="work-list-item-text">
+                <h4 class="work-list-item-heading">Talablarni aniqlab chiqamiz</h4>
+                <p class="work-list-item-paragraph">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+              </div>
+            </li>
+            <li class="work-list-item work-list-item-second">
+              <div class="work-list-item-text">
+                <h4 class="work-list-item-heading">Bir necha yechimlarni taklif qilamiz</h4>
+                <p class="work-list-item-paragraph">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+              </div>
+            </li>
+            <li class="work-list-item work-list-item-third">
+              <div class="work-list-item-text">
+                <h4 class="work-list-item-heading">Loyiha uchun vaqt belgilaymiz</h4>
+                <p class="work-list-item-paragraph">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+              </div>
+            </li>
+            <li class="work-list-item work-list-item-fourth">
+              <div class="work-list-item-text">
+                <h4 class="work-list-item-heading">A’lo sifat bilan bajarib topshiramiz</h4>
+                <p class="work-list-item-paragraph">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+              </div>
+            </li>
+            <li class="work-list-item work-list-item-fifth">
+              <div class="work-list-item-text">
+                <h4 class="work-list-item-heading">Qo’llab-quvvatlab boramiz</h4>
+                <p class="work-list-item-paragraph">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+              </div>
+            </li>
+          </ol>
+          <div class="work-section-link">
+            <a class="blue-link page-link" href="#orderto">Buyurtma berish</a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- ============
+              ORDER
+    ==============-->
+    <section id="orderto" class="order">
+      <div class="container">
+        <div class="sections-text">
+          <h3 class="order-heading">Buyurtma berish</h3>
+          <p class="order-paragraph">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+        </div>
+
+        <form class="form-container">
+          <input name="Ismingiz" required class="form-input" type="text" placeholder="Ismingiz">
+          <input class="form-input" type="tel" placeholder="Telefon raqamingiz">
+          <select class="form-select" name="xizmat-turi" id="">
+            <option aria-disabled="false">Xizmat turi</option>
+            <option>Vebsayt tuzish</option>
+            <option>Telegram bot</option>
+            <option>SMM</option>
+            <option>Grafik dizayn</option>
+            <option>CRM tizimlar</option>
+          </select>
+          <button class="form-button" type="submit">Buyurtma berish</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===============
+            FOOTER
+    ================ -->
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <div class="footer-right">
+          <p class="footer-right-copyright"><strong>Copyright 2020</strong></p>
+          <p class="footer-right-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
+        </div><!-- footer-right -->
+        <section class="site-pages">
+          <h4 class="site-pages-heading">Sayt sahifalari</h4>
+          <ul class="site-pages-list">
+            <li class="site-pages-iteam">
+              <a href="#" class="site-pages-link">Bosh sahifa</a>
+            </li>
+            <li class="site-pages-iteam">
+              <a href="#" class="site-pages-link">Xizmatlar</a>
+            </li>
+            <li class="site-pages-iteam">
+              <a href="#" class="site-pages-link">Portfolio</a>
+            </li>
+            <li class="site-pages-iteam">
+              <a href="#" class="site-pages-link">Jamoa</a>
+            </li>
+            <li class="site-pages-iteam">
+              <a href="#" class="site-pages-link">Blog</a>
+            </li>
+            <li class="site-pages-iteam">
+              <a href="#" class="site-pages-link">Kontaktlar</a>
+            </li>
+          </ul><!-- site-pages-list -->
+        </section><!-- site-pages -->
+        <section class="we-in-net">
+          <h4 class="we-in-net-heading">Biz internetda</h4>
+          <ul class="we-in-net-list">
+            <li class="we-in-net-iteam">
+              <a href="#" class="we-in-net-link">
+                <svg width="22" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M11 .375C4.923.375 0 5.578 0 12s4.923 11.625 11 11.625S22 18.422 22 12 17.077.375 11 .375zm5.402 7.964l-1.805 8.99c-.133.638-.492.793-.993.493l-2.75-2.142-1.327 1.35c-.146.154-.27.286-.554.286l.195-2.958 5.097-4.866c.221-.206-.05-.323-.342-.117l-6.298 4.19-2.715-.895c-.59-.197-.603-.623.124-.923L15.64 7.425c.493-.188.923.127.763.914z"/></svg>
+                <span class="we-in-net-link-name">Telegram</span>
+              </a>
+            </li>
+            <li class="we-in-net-iteam">
+              <a href="#" class="we-in-net-link">
+                <svg width="22" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M21.656 12C21.656 5.578 16.886.375 11 .375 5.113.375.344 5.578.344 12c0 5.802 3.897 10.612 8.991 11.484V15.36H6.628V12h2.707V9.439c0-2.914 1.59-4.523 4.025-4.523 1.166 0 2.386.227 2.386.227v2.86H14.4c-1.323 0-1.736.896-1.736 1.815V12h2.955l-.472 3.36h-2.483v8.124c5.094-.872 8.991-5.682 8.991-11.484z" /></svg>
+                <span class="we-in-net-link-name">Facebook</span>
+              </a>
+            </li>
+            <li class="we-in-net-iteam">
+              <a href="#" class="we-in-net-link">
+                <svg width="22" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M11.005 6.61c-3.123 0-5.643 2.404-5.643 5.385 0 2.982 2.52 5.386 5.643 5.386 3.123 0 5.642-2.404 5.642-5.386 0-2.98-2.519-5.385-5.642-5.385zm0 8.887c-2.018 0-3.668-1.57-3.668-3.502 0-1.93 1.645-3.501 3.668-3.501s3.668 1.57 3.668 3.502c0 1.93-1.65 3.501-3.668 3.501zm7.19-9.108c0 .699-.59 1.256-1.317 1.256-.732 0-1.316-.562-1.316-1.256s.59-1.256 1.316-1.256c.727 0 1.316.562 1.316 1.256zm3.736 1.275c-.083-1.683-.486-3.173-1.777-4.401-1.287-1.228-2.849-1.613-4.612-1.697-1.817-.099-7.263-.099-9.08 0-1.758.08-3.32.464-4.61 1.692C.56 4.486.161 5.977.073 7.66c-.103 1.734-.103 6.932 0 8.667.083 1.682.486 3.173 1.777 4.401 1.292 1.228 2.849 1.613 4.611 1.697 1.817.099 7.263.099 9.08 0 1.763-.08 3.325-.464 4.612-1.697 1.286-1.228 1.689-2.719 1.777-4.401.103-1.735.103-6.928 0-8.663zm-2.347 10.524c-.383.918-1.125 1.626-2.092 1.997-1.449.548-4.886.421-6.487.421s-5.043.122-6.487-.422a3.634 3.634 0 01-2.092-1.996c-.575-1.383-.442-4.664-.442-6.192 0-1.529-.128-4.815.442-6.193.383-.918 1.124-1.626 2.092-1.997 1.449-.548 4.886-.421 6.487-.421 1.6 0 5.043-.122 6.487.421a3.634 3.634 0 012.092 1.997c.575 1.383.442 4.664.442 6.192 0 1.529.133 4.815-.442 6.193z"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h22v24H0z"/></clipPath></defs></svg>
+                <span class="we-in-net-link-name">Instangram</span>
+              </a>
+            </li>
+          </ul><!-- we-in-net-list -->
+        </section><!-- we-in-net -->
+      </div><!-- container -->
+    </footer><!-- site-footer -->
+  </body>
+  </html>
